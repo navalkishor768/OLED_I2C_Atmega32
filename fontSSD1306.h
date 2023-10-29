@@ -1,6 +1,9 @@
 /*
- *  fontSSD1306.h
- *  
+ *  font.h
+ *  i2c
+ *
+ *  Created by Michael Köhler on 13.09.18.
+ *  Copyright 2018 Skie-Systems. All rights reserved.
  *
  */
 #ifndef _font_h_

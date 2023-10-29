@@ -1,9 +1,12 @@
 /*
- *  fontSSD1306.c
- * 
+ *  font.c
+ *  i2c
+ *
+ *  Created by Michael Köhler on 16.09.18.
+ *  Copyright 2018 Skie-Systems. All rights reserved.
  *
  */
-#include "fontSSD1306.h"
+#include "font.h"
 
 const char ssd1306oled_font[][6] PROGMEM = {
 {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}, // sp

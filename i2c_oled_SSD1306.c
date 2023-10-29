@@ -1,5 +1,5 @@
 /*
- * i2cnaval.c
+ * i2c_oled_SSD1306.c
  *  Author:Navalkishor Kumawat
  *  Created: 29/10/2023 06:50 PM
  */
@@ -32,7 +32,7 @@ const uint8_t init_sequence [] PROGMEM = {    // Initialization Sequence
     0x40,            // --set start line address
     0x81, 0x3F,      // Set contrast control register
     0xA1,            // Set Segment Re-map. A0=address mapped; A1=address 127 mapped.
-    0xA6,            // Set display mode. A6=Normal; A7=Inverse
+    0xA6,            // Set display mode. A6=; A7=Inverse
     0xA8, DISPLAY_HEIGHT-1, // Set multiplex ratio(1 to 64)
     0xA4,            // Output RAM to Display
 					 // 0xA4=Output follows RAM content; 0xA5,Output ignores RAM content

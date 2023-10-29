@@ -41,6 +41,6 @@ void i2c_stop()
 {
 	TWCR=(1<<TWINT)|(1<<TWEN)|(1<<TWSTO);
 	//for(int x=0;x<10;x++);	//wait for sometime
-	_delay_ms(100);
+	_delay_ms(10);
 
 }
