@@ -1,9 +1,9 @@
 /*
- *  font.c
+ *  fontSSD1306.c
  *  
  *
  */
-#include "font.h"
+#include "fontSSD1306.h"
 
 const char ssd1306oled_font[][6] PROGMEM = {
 {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}, // sp
