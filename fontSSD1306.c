@@ -1,9 +1,6 @@
 /*
  *  font.c
- *  i2c
- *
- *  Created by Michael Köhler on 16.09.18.
- *  Copyright 2018 Skie-Systems. All rights reserved.
+ *  
  *
  */
 #include "font.h"
